@@ -1,6 +1,8 @@
 // Importe le composant de navigation
 import { nav } from "/components/nav.js";
 
+import { footer } from "/components/footer.js";
+
 // Importe les styles CSS
 import "/styles.css";
 
@@ -32,6 +34,7 @@ async function fetchPosts() {
       <h2>${product.title}</h2> <!-- Titre du produit récupéré -->
       <p>${product.content}</p> <!-- Contenu du produit récupéré -->
     </div>
+    ${footer()}
   `;
 }
 

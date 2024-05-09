@@ -1,10 +1,11 @@
 import { nav } from "../components/nav.js";
+import { footer } from "/components/footer.js";
 import "/styles.css";
 
 
-function createAndSubmitForm() {
+document.querySelector("#app").innerHTML += `${nav()}`;
 
-  document.querySelector("#app").innerHTML += `${nav()}`;
+function createAndSubmitForm() {
 
   const formHtml = `
     <form id="contactForm">
@@ -31,6 +32,7 @@ function createAndSubmitForm() {
       body: formData
     });
 
+
     deleteErrors();
 
     if (reponse.status === 422) {
@@ -48,6 +50,7 @@ function createAndSubmitForm() {
 
     
   });
+
 }
 
 function deleteErrors() {
@@ -60,3 +63,7 @@ function deleteErrors() {
 }
 
 createAndSubmitForm();
+
+
+document.querySelector("#app").innerHTML += `${footer()}`
+

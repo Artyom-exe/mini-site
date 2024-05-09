@@ -1,4 +1,5 @@
 import { nav } from "/components/nav.js";
+import { footer } from "/components/footer.js";
 import "/styles.css";
 
 async function fetchPosts() {
@@ -19,6 +20,7 @@ async function fetchPosts() {
         )
         .join("")}
     </div>
+    ${footer()}
   `;
 }
 
