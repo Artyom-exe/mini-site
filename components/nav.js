@@ -9,6 +9,7 @@ export function nav() {
         </ul>
     </nav>
     <figure>
-        <img src="https://placehold.co/600x400">
-    </figure>`;
+        <img src="/public/chauve.jpeg">
+    </figure>
+    <h1>Calvitie Chic</h1>`;
 }
