@@ -8,5 +8,7 @@ export function nav() {
             <li><a href="/contact/index.html">Contact</a></li>
         </ul>
     </nav>
-    `;
+    <figure>
+        <img src="https://placehold.co/600x400">
+    </figure>`;
 }
