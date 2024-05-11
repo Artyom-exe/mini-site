@@ -29,10 +29,15 @@ async function fetchPosts() {
   // Met à jour le contenu de l'élément avec l'ID "app" pour afficher les données du produit récupérées
   document.querySelector("#app").innerHTML = `
     ${nav()} <!-- Injection du composant de navigation -->
-    <div>
-      <h1>Posts</h1> <!-- Titre principal de la section -->
-      <h2>${product.title}</h2> <!-- Titre du produit récupéré -->
-      <p>${product.content}</p> <!-- Contenu du produit récupéré -->
+    <div class="single-product">
+      <figure>
+        <img src="${product.img}"> <!-- image du produit récupéré -->
+      </figure>
+      <div>
+        <h2>${product.title}</h2> <!-- Titre du produit récupéré -->
+        <h3>${product.price}</h3> <!-- Prix du produit récupéré -->
+        <p>${product.content}</p> <!-- Contenu du produit récupéré -->
+      </div>
     </div>
     ${footer()}
   `;

@@ -10,12 +10,16 @@ async function fetchPosts() {
 
   document.querySelector("#app").innerHTML = `
     ${nav()}
+    <h1>Notre équipe</h1>
     <div class="container">
       ${peoples
         .map(
-          (people) => `<div class="card">
-        <h2>${people.name}</h2>
-        <figure> <img src="${people.image}"> </figure>
+          (people) => `
+        <div class="card">
+          <figure> 
+            <img src="${people.image}"> 
+          </figure>
+          <h2>${people.name}</h2>
         </div>`
         )
         .join("")}

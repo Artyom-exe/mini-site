@@ -2,16 +2,16 @@
   {
     "id": 1,
     "name": "Philippe",
-    "image": "/public/img1.jpg"
+    "image": "/public/chauve1.jpeg"
   },
   {
     "id": 2,
     "name": "Térrance",
-    "image": "/public/img2.jpg"
+    "image": "/public/chauve1.jpeg"
   },
   {
     "id": 3,
     "name": "Cartman",
-    "image": "/public/img3.jpg"
+    "image": "/public/chauve1.jpeg"
   }
 ]

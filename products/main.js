@@ -12,15 +12,13 @@ async function fetchPosts() {
 
   document.querySelector("#app").innerHTML = `
     ${nav()}
-    <div>
       <h1>Les produits</h1>
+      <div class="products">
       ${products
         .map(
           (product) => `
           <li>
-            <a href="/product/?id=${product.id}">
-            ${product.title}
-            </a>
+            <a href="/product/?id=${product.id}"><img src="${product.img}">${product.title}<br>${product.price}</a>
           </li>`
         )
         .join("")}
