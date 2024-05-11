@@ -20,6 +20,8 @@ nav ul li a {
 }
 nav+figure {
     text-align: center;
+}
+nav+figure img {
     width: 20%;
     height: auto;
 }
@@ -140,13 +142,15 @@ div.card h2 {
 #contactForm {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 50%;
     gap: 20px;
     margin: auto;
-    position: relative;
-    top: 100px;
     border: solid 2px rgb(37, 27, 93);
     padding: 50px;
+}
+#contactForm button {
+    width: 100px;
+    height: 30px;
 }
 
 .errorColor {
