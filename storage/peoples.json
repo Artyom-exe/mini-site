@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Philippe",
+    "name": "Johnny",
     "image": "/public/chauve1.jpeg"
   },
   {
     "id": 2,
-    "name": "Térrance",
-    "image": "/public/chauve1.jpeg"
+    "name": "Christian",
+    "image": "/public/chauve2.jpeg"
   },
   {
     "id": 3,
-    "name": "Cartman",
-    "image": "/public/chauve1.jpeg"
+    "name": "Tony",
+    "image": "/public/chauve3.jpeg"
   }
 ]

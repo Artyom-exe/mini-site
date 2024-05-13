@@ -2,43 +2,29 @@
   {
     "id": 1,
     "img": "/public/brosse.jpeg",
-    "title": "Mon premier produit",
-    "price": "50E",
-    "content": "Contenu du premier lkejfoziehfozihqsmojvnqskmjfvbmqsjkfdvbqsfmdvbqsfdvjqsdkvjqsdvmkjqsbdvmkjqsbkdvqskmjdvbqskmdjvbqsmkjdvbqkmsjdbvqmksjdbvmksjdbvmskjdbvvmkqsjdbvmsqjkdvbmqskdjvbmqskjdbvmsqkjdbvqmskjdbvqmskjdvbsmkdjvbqskmdvjbmqsdjvbmsjdbvmsqjbdvsbvdmskbdvmdjb"
+    "title": "Brosse à Cheveux “Classic Chic”",
+    "price": "29,99€",
+    "content": "La Brosse à Cheveux “Classic Chic” est l’accessoire de coiffure idéal pour ceux qui apprécient les plaisirs simples de la vie. Avec son design intemporel et ses picots bien réels, cette brosse est un hommage aux cheveux que vous avez aimés et perdus."
   },
   {
     "id": 2,
-    "img": "/public/brosse.jpeg",
-    "title": "Mon deuxième produit",
-    "price": "50E",
-    "content": "Contenu du premier post"
+    "img": "/public/miroir.jpeg",
+    "title": "Miroir “Reflet Parfait”",
+    "price": "49,99€",
+    "content": "Le Miroir “Reflet Parfait” est l’accessoire indispensable pour tous les chauves qui souhaitent admirer leur crâne dans toute sa splendeur. Conçu pour refléter avec précision chaque courbe et chaque éclat, ce miroir est le compagnon idéal pour ceux qui portent leur calvitie avec fierté."
   },
   {
     "id": 3,
-    "title": "Mon deuxième produit",
-    "img": "/public/brosse.jpeg",
-    "price": "50E",
-    "content": "Contenu du deuxième post"
+    "title": " Le “Chauve Chic”",
+    "img": "/public/bonnet.jpeg",
+    "price": "19,99€",
+    "content": "Pourquoi se contenter d’une chevelure luxuriante quand on peut avoir un crâne lisse comme un galet ? Avec le bonnet “Chauve Chic”, affichez votre crâne avec fierté et un soupçon d’ironie."
   },
   {
     "id": 4,
-    "img": "/public/brosse.jpeg",
-    "title": "Mon deuxième produit",
-    "price": "50E",
-    "content": "Contenu du deuxième post"
-  },
-  {
-    "id": 5,
-    "img": "/public/brosse.jpeg",
-    "title": "Mon deuxième produit",
-    "price": "50E",
-    "content": "Contenu du deuxième post"
-  },
-  {
-    "id": 6,
-    "img": "/public/brosse.jpeg",
-    "title": "Mon deuxième produit",
-    "price": "50E",
-    "content": "Contenu du deuxième post"
+    "img": "/public/savon.jpeg",
+    "title": "Le “Gloss Capillaire”",
+    "price": "9.99€",
+    "content": "Qui a dit que les chauves n’avaient pas besoin de shampoing ? Avec “Le Gloss Capillaire”, redonnez de la brillance à ce qui reste de votre fierté capillaire. Parce que oui, même un désert a besoin de pluie !"
   }
 ]
