@@ -29,3 +29,11 @@ async function fetchPosts() {
 }
 
 fetchPosts();
+
+let urlAVerifier = ''; // remplacez par l'URL que vous essayez de construire
+try {
+    new URL(urlAVerifier);
+} catch (e) {
+    console.error(urlAVerifier, "n'est pas une URL valide");
+}
+

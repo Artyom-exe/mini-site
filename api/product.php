@@ -11,7 +11,7 @@ if (!$id) {
     die();
 }
 
-$products = file_get_contents('../storage/products.json');
+$products = file_get_contents(dirname(__DIR__) . DIRECTORY_SEPARATOR . 'storage' . DIRECTORY_SEPARATOR . 'products.json');
 
 $products = json_decode($products);
 

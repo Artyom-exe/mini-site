@@ -6,7 +6,6 @@ import "/styles.css";
 async function fetchPosts() {
   let url = new URL(import.meta.env.VITE_API_URL);
   url.pathname = "mini-site/api/products.php";
-  console.log(url);
   const response = await fetch(url);
   const products = await response.json();
 

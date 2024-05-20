@@ -34,8 +34,8 @@ if (count($errors) > 0) {
     http_response_code(422);
     echo json_encode($errors);
 } else {
-    $contacts = json_decode(file_get_contents('/storage/contacts.json'), true);
+    $contacts = json_decode(file_get_contents(dirname(__DIR__) . DIRECTORY_SEPARATOR . "storage" . DIRECTORY_SEPARATOR . 'contacts.json'), true);
     $contacts[] = $_POST;
-    file_put_contents('/storage/contacts.json', json_encode($contacts));
+    file_put_contents(dirname(__DIR__) . DIRECTORY_SEPARATOR . "storage" . DIRECTORY_SEPARATOR . 'contacts.json', json_encode($contacts));
     echo json_encode(['success' => true]);
 }
