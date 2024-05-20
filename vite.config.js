@@ -7,7 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),         // Page d'accueil
-        post: resolve(__dirname, 'post/index.html'), // Page secondaire
+        post: resolve(__dirname, 'product/index.html'), // Page secondaire
         people: resolve(__dirname, 'people/index.html'), // Page secondaire
         contact: resolve(__dirname, 'contact/index.html'), // Page secondaire
       },
