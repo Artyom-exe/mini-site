@@ -4,6 +4,7 @@ import "/styles.css";
 
 async function fetchPosts() {
   let url = new URL(import.meta.env.VITE_API_URL);
+  console.log(url);
   url.pathname = "mini-site/api/peoples.php";
   const response = await fetch(url);
   const peoples = await response.json();
@@ -30,10 +31,4 @@ async function fetchPosts() {
 
 fetchPosts();
 
-let urlAVerifier = ''; // remplacez par l'URL que vous essayez de construire
-try {
-    new URL(urlAVerifier);
-} catch (e) {
-    console.error(urlAVerifier, "n'est pas une URL valide");
-}
 
