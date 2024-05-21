@@ -15,7 +15,7 @@ async function fetchPosts() {
   const id = new URL(window.location).searchParams.get('id');
 
   // Modifie le chemin de l'URL pour pointer vers l'API de récupération des produits
-  url.pathname = "mini-site/api/product.php";
+  url.pathname = "/api/product.php";
 
   // Ajoute l'ID du produit à la query string de l'URL
   url.searchParams.append("id", id);

@@ -28,7 +28,7 @@ function createAndSubmitForm() {
     const formData = new FormData(e.target);
     
     let url = new URL(import.meta.env.VITE_API_URL);
-    url.pathname = "mini-site/api/submitContact.php";
+    url.pathname = "/api/submitContact.php";
 
     const reponse = await fetch(url, {
       method: "POST",
