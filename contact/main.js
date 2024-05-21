@@ -26,7 +26,7 @@ function createAndSubmitForm() {
     
     e.preventDefault();
     const formData = new FormData(e.target);
-
+    
     let url = new URL(import.meta.env.VITE_API_URL);
     url.pathname = "mini-site/api/submitContact.php";
 
