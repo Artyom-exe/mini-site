@@ -3,9 +3,9 @@ import { footer } from "/components/footer.js";
 import "/styles.css";
 
 
-document.querySelector("#app").innerHTML += `${nav()}`;
-
 function createAndSubmitForm() {
+
+  document.querySelector("#app").innerHTML += `${nav()}`;
 
   const formHtml = `
     <form id="contactForm">
@@ -19,8 +19,11 @@ function createAndSubmitForm() {
     </form>
   `;
   document.querySelector("#app").innerHTML += formHtml
+  
+  document.querySelector("#app").innerHTML += `${footer()}`
 
   document.querySelector("#contactForm").addEventListener("submit", async (e) => {
+    
     e.preventDefault();
     const formData = new FormData(e.target);
 
@@ -31,7 +34,6 @@ function createAndSubmitForm() {
       method: "POST",
       body: formData
     });
-
 
     deleteErrors();
 
@@ -50,7 +52,6 @@ function createAndSubmitForm() {
 
     
   });
-
 }
 
 function deleteErrors() {
@@ -63,7 +64,3 @@ function deleteErrors() {
 }
 
 createAndSubmitForm();
-
-
-document.querySelector("#app").innerHTML += `${footer()}`
-
